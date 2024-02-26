@@ -1,0 +1,37 @@
+<odoo>
+    <data>
+        <!-- Record 1 -->
+        <record id="property_record_1" model="estate.property">
+            <field name="name">Beautiful Villa</field>
+            <field name="description">A stunning villa with panoramic views.</field>
+            <field name="postcode">12345</field>
+            <field name="date_availability">2024-03-01</field>
+            <field name="expected_price">750000.0</field>
+            <field name="selling_price">700000.0</field>
+            <field name="bedrooms">4</field>
+            <field name="living_area">300</field>
+            <field name="facades">2</field>
+            <field name="garage">True</field>
+            <field name="garden">True</field>
+            <field name="garden_area">500</field>
+            <field name="garden_orientation">south</field>
+        </record>
+
+        <!-- Record 2 -->
+        <record id="property_record_2" model="estate.property">
+            <field name="name">Cozy Apartment</field>
+            <field name="description">A comfortable apartment in the city center.</field>
+            <field name="postcode">54321</field>
+            <field name="date_availability">2024-02-15</field>
+            <field name="expected_price">250000.0</field>
+            <field name="bedrooms">2</field>
+            <field name="living_area">120</field>
+            <field name="facades">1</field>
+            <field name="garage">False</field>
+            <field name="garden">False</field>
+        </record>
+
+        <!-- Add more records as needed -->
+
+    </data>
+</odoo>
